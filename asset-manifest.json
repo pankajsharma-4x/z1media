@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/z1media/static/js/main.8b813a3a.js",
+    "static/media/Profile.png": "/z1media/static/media/Profile.a47159f8e75eec5bbe14.png",
+    "static/media/chart2.png": "/z1media/static/media/chart2.6fb827542ee42c4d3432.png",
+    "index.html": "/z1media/index.html",
+    "main.8b813a3a.js.map": "/z1media/static/js/main.8b813a3a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8b813a3a.js"
+  ]
+}
