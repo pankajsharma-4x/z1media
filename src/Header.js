@@ -37,6 +37,8 @@ import Profile from "./images/Profile.png"
 import AddchartOutlinedIcon from '@mui/icons-material/AddchartOutlined';
 
 import Card from './Card'
+import Charts from './Charts'
+
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -205,10 +207,6 @@ function ResponsiveDrawer(props) {
             <MenuIcon />
           </IconButton>
 
-          {/* <Typography variant="h6" noWrap component="div">
-            Responsive drawer
-          </Typography> */}
-
           <Box sx={{
             width:'100%',
             display:'flex',
@@ -218,7 +216,6 @@ function ResponsiveDrawer(props) {
           <Search 
           sx={{
     color: '#32323A',
-    // boxShadow:' 0 4px 12px 0 rgb(0 0 0 / 16%)',
     borderRadius: '12px',
     backgroundColor: '#eee',
     width:{xs:'160px' , md:'500px'}
@@ -259,17 +256,6 @@ function ResponsiveDrawer(props) {
               </Badge>
             </IconButton>
 
-            {/* <IconButton
-              size="large"
-              edge="end"
-              aria-label="account of current user"
-              // aria-controls={menuId}
-              aria-haspopup="true"
-              onClick={handleProfileMenuOpen}
-              color="inherit"
-            >
-              <AccountCircle />
-            </IconButton> */}
             <Avatar alt="Travis Howard" src={Profile}  
             sx={{ 
               width:'40' ,
@@ -285,7 +271,7 @@ function ResponsiveDrawer(props) {
         sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
         aria-label="mailbox folders"
       >
-        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+       
         <Drawer
           container={container}
           variant="temporary"
@@ -319,7 +305,7 @@ function ResponsiveDrawer(props) {
         <Toolbar />
        
        <Card />
-
+       <Charts />
       </Box>
     </Box>
   );
